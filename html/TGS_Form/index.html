@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TSRTC General Bus Pass Application</title>
+</head>
+
+<body>
+
+<center>
+    <img src="logo.png" width="60"><br><br>
+    <font size="6" color="blue">
+        <b>TELANGANA STATE ROAD TRANSPORT CORPORATION</b>
+    </font>
+    <br><br>
+    <font size="5">
+        <b>GENERAL BUS PASS APPLICATION</b>
+    </font>
+</center>
+
+<br><br>
+
+<table border="1" width="90%" align="center" cellpadding="10">
+    <tr>
+        <td colspan="2">
+            <b>Applicant Details</b>
+        </td>
+    </tr>
+
+    <tr>
+        <td width="50%">
+            <b>Name <font color="red">*</font></b><br>
+            <input type="text" maxlength="20"><br>
+            <font color="red">(Maximum characters: 20)</font>
+        </td>
+
+        <td width="50%">
+            <b>Father's / Guardian's Name <font color="red">*</font></b><br>
+            <input type="text">
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <b>Date of Birth <font color="red">*</font></b><br>
+            <input type="text" placeholder="dd/mm/yyyy">
+        </td>
+
+        <td>
+            <b>Gender <font color="red">*</font></b><br>
+            <input type="radio" name="gender"> Female
+            <input type="radio" name="gender"> Male
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <b>Age As on :</b><br>
+            <input type="text" size="3"> Year(s)
+            <input type="text" size="3"> Month(s)
+            <input type="text" size="3"> Day(s)
+        </td>
+
+        <td>
+            <b>Aadhaar No:</b><br>
+            <input type="text">
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <b>WhatsApp No <font color="red">*</font></b><br>
+            <input type="text">
+        </td>
+
+        <td>
+            <b>E-mail Id <font color="red">*</font></b><br>
+            <input type="email">
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <b>Photo <font color="red">*</font></b><br>
+            <input type="file">
+        </td>
+
+        <td></td>
+    </tr>
+</table>
+<!-- Residential Address Details -->
+
+<table border="1" width="90%" align="center" cellpadding="10">
+    <tr>
+        <td colspan="4">
+            <b>Residential Address Details</b>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <b>Applicant's Address <font color="red">*</font></b><br>
+            <textarea rows="4" cols="30"></textarea><br>
+            <font color="red">(Maximum characters: 20)</font><br>
+            <font color="red">You have <input type="text" size="2" value="20"> characters left.</font>
+        </td>
+
+        <td>
+            <b>District <font color="red">*</font></b><br>
+            <select>
+                <option>HYDERABAD</option>
+                <option>RANGAREDDY</option>
+            </select>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <b>Mandal <font color="red">*</font></b><br>
+            <select>
+                <option>HYDERABAD</option>
+            </select>
+        </td>
+
+        <td>
+            <b>Village <font color="red">*</font></b><br>
+            <select>
+                <option>HYDERABAD</option>
+            </select>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <b>Pincode <font color="red">*</font></b><br>
+            <input type="text">
+        </td>
+        <td></td>
+    </tr>
+</table>
+
+<br>
+
+<!-- Pass Type Details -->
+
+<table border="1" width="90%" align="center" cellpadding="10">
+    <tr>
+        <td colspan="2">
+            <b>Pass Type Details</b>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <b>City <font color="red">*</font></b><br>
+            <select>
+                <option>Hyderabad</option>
+                <option>Warangal</option>
+            </select>
+        </td>
+
+        <td>
+            <b>Pass Type <font color="red">*</font></b><br>
+            <select>
+                <option>-----Select-----</option>
+                <option>Monthly Pass</option>
+                <option>Student Pass</option>
+            </select>
+        </td>
+    </tr>
+</table>
+
+<br>
+
+<!-- Mode of Payment & Pass Collection -->
+
+<table border="1" width="90%" align="center" cellpadding="10">
+    <tr>
+        <td colspan="2">
+            <b>Mode of Payment & Pass Collection</b>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <b>Payment Mode <font color="red">*</font></b><br>
+            <select>
+                <option>Select Payment Mode</option>
+                <option>Online</option>
+                <option>Offline</option>
+            </select>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <b>Pass Delivery Mode <font color="red">*</font></b><br>
+            <select>
+                <option>Select Pass Delivery Mode</option>
+                <option>At Counter</option>
+            </select>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <b>Center at which you want to Collect Pass <font color="red">*</font></b><br>
+            <select>
+                <option>-----Select-----</option>
+                <option>Hyderabad Central Bus Station</option>
+            </select>
+        </td>
+    </tr>
+</table>
+<form action="#" method="post">
+
+    <center>
+        <input type="submit" value="Submit">
+    </center>
+
+</form>
+</body>
+</html>
